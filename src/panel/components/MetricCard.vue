@@ -58,15 +58,17 @@ const display = computed(() => {
   font-variant-numeric: tabular-nums;
 }
 .rating {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
   font-size: 12px;
   font-weight: 700;
 }
 .dot {
-  display: inline-block;
+  flex: none;
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background: currentColor;
-  margin-right: 5px;
 }
 </style>

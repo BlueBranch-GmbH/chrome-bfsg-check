@@ -63,7 +63,7 @@ async function copy(node: ScanNode, index: number) {
             <p v-if="node.summary" class="summary small">{{ node.summary }}</p>
             <p v-if="node.data?.text" class="small">„{{ node.data.text }}“</p>
             <div class="row">
-              <button type="button" class="btn btn-small" @click="showOnPage(node.target, rule.id)">{{ t('detailed.show') }}</button>
+              <button type="button" class="btn btn-small" @click="showOnPage(node.target, title)">{{ t('detailed.show') }}</button>
               <button type="button" class="btn btn-small" @click="copy(node, index)">
                 {{ copiedIndex === index ? t('detailed.copied') : t('detailed.copy') }}
               </button>

@@ -103,7 +103,11 @@ function drawHighlight(): void {
   const label = document.createElement('div');
   label.className = 'label';
   label.textContent = highlighted.label;
-  label.style.cssText = `top:${rect.top - pad}px;left:${rect.left - pad}px;`;
+  // Above the box by default; below it when there is no room at the top of the page.
+  const below = rect.top - pad - 22 < window.scrollY;
+  label.style.cssText = below
+    ? `top:${rect.top + rect.height + pad}px;left:${rect.left - pad}px;transform:none;border-radius:0 0 3px 3px;`
+    : `top:${rect.top - pad}px;left:${rect.left - pad}px;`;
   highlightLayer.append(box, label);
 }
 

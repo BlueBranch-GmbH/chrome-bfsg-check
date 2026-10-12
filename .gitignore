@@ -7,3 +7,6 @@ dist/
 .idea/
 .vscode/
 *.log
+
+# Lokale Unterlagen (z. B. Store-Screenshots), nicht im Repository
+docs/
