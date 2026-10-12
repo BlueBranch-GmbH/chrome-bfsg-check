@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "BFSG Check von BlueBranch – Barrierefreiheit & Performance",
+    "description": "Name der Erweiterung"
+  },
+  "extDescription": {
+    "message": "Prüft die geöffnete Seite auf Barrierefreiheit nach BFSG (WCAG 2.1 AA / EN 301 549) und gibt Performance-Hinweise. Komplett lokal.",
+    "description": "Beschreibung der Erweiterung"
+  },
+  "actionTitle": {
+    "message": "BFSG Check öffnen",
+    "description": "Tooltip des Symbolleisten-Symbols"
+  }
+}

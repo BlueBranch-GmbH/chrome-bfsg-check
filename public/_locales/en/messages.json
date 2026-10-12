@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "BFSG Check by BlueBranch – Accessibility & Performance",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Checks the open page for accessibility under the German BFSG (WCAG 2.1 AA / EN 301 549) and gives performance hints. Fully local.",
+    "description": "Extension description"
+  },
+  "actionTitle": {
+    "message": "Open BFSG Check",
+    "description": "Toolbar icon tooltip"
+  }
+}
